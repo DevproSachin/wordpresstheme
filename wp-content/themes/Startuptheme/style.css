@@ -1,0 +1,40 @@
+/*
+Theme Name: Startup Theme
+Theme URI: sachinsharma.com
+Author: Sachin Sharma
+Author URI: http://example.com
+Description: This is a custom WordPress theme.
+Version: 1.0.0
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+div#primary-menu {
+    width: 100%;
+}
+
+.primary-menu-class {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    margin-bottom: auto;
+}
+.primary-menu-class li {
+    list-style: none;
+}
+
+.current-menu-item {
+    border-bottom: 1px solid #015fc9;
+}
+
+
+.widget_block {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li#block-12 {
+    display: flex;
+    flex-direction: row;
+}
